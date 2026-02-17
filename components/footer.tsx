@@ -6,6 +6,7 @@ const quickLinks = [
   { label: "History", href: "#history" },
   { label: "Sacred Significance", href: "#cultural" },
   { label: "Explore Hidden Kashi", href: "#explore" },
+  { label: "Local Guides", href: "/guides" },
   { label: "Gallery", href: "#gallery" },
   { label: "Blog", href: "#blog" },
   { label: "About", href: "#about" },

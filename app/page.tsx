@@ -1,13 +1,14 @@
-import { Navigation } from "@/components/Navigation";
-import { HeroSection } from "@/components/HeroSection";
-import { HistorySection } from "@/components/HistorySection";
-import { CulturalSection } from "@/components/CulturalSection";
-import { UnexploredSection } from "@/components/UnexploredSection";
-import { GallerySection } from "@/components/GallerySection";
-import { MapSection } from "@/components/MapSection";
-import { BlogSection } from "@/components/BlogSection";
-import { AboutSection } from "@/components/AboutSection";
-import { Footer } from "@/components/Footer";
+import { Navigation } from "@/components/navigation";
+import { HeroSection } from "@/components/hero-section";
+import { HistorySection } from "@/components/history-section";
+import { CulturalSection } from "@/components/cultural-section";
+import { ExploreSection } from "@/components/explore-section";
+import { GuidesSection } from "@/components/guides-section";
+import { GallerySection } from "@/components/gallery-section";
+import { MapSection } from "@/components/map-section";
+import { BlogSection } from "@/components/blog-section";
+import { AboutSection } from "@/components/about-section";
+import { Footer } from "@/components/footer";
 
 export default function Home() {
   return (
@@ -17,7 +18,8 @@ export default function Home() {
         <HeroSection />
         <HistorySection />
         <CulturalSection />
-        <UnexploredSection />
+        <ExploreSection />
+        <GuidesSection />
         <GallerySection />
         <MapSection />
         <BlogSection />
